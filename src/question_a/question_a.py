@@ -1,3 +1,5 @@
-#write functions here, don't add input('') statements here!
-def test_config():
-    return True
+def use_global():
+    # Declare global variable
+    global x
+    x = 50
+    print(x)
