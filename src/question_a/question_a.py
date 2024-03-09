@@ -1,5 +1,7 @@
+# Set global variable value
+x = 10
+
 def use_global():
-    # Declare global variable
+    # Declare and change value of global variable
     global x
     x = 50
-    print(x)
